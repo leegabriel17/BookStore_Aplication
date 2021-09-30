@@ -10,6 +10,7 @@ import com.gabriel.bookstore.service.DBService;
 @Configuration
 @Profile("test")
 public class TestConfig {
+	
 	@Autowired
 	private DBService dbService;
 	
